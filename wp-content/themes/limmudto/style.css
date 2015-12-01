@@ -18,3 +18,7 @@ p > .btn-default {
 p > .btn:hover {
 	color: #FFF !important;
 }
+
+.hero-slider-mini .slides li {
+	height: 250px;
+}

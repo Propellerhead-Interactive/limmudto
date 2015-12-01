@@ -13,26 +13,42 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div class="main-container"><a id="home" class="in-page-link"></a>
+	<section class="hero-slider hero-slider-mini">
+		<ul class="slides">
+			<li class="countdown-header primary-overlay">
+			
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+							<div class="countdown" data-date="2016/03/06"></div>
+						</div>
+					</div>
+				</div><!--end of container-->
+			</li>
+		</ul>
+	</section>
+	
+	<section class="inline-video">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1><?php echo the_title(); ?></h1>
+				</div>
+			</div><!--end of row-->
+		
+			<div class="row">
+				<?php 
+					if (have_posts()) : while (have_posts()) : the_post();
 
-		<?php
-		// Start the loop.
-		while ( have_posts() ) : the_post();
+					the_content();
 
-			// Include the page content template.
-			get_template_part( 'content', 'page' );
+					endwhile; endif;
+				?>
+			</div><!--end of row-->
+		</div><!--end of container-->
+	</section>
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		// End the loop.
-		endwhile;
-		?>
-
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
+</div>
 
 <?php get_footer(); ?>

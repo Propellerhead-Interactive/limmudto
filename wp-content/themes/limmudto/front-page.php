@@ -18,9 +18,6 @@ get_header(); ?>
 	<section class="hero-slider">
 		<ul class="slides">
 			<li class="countdown-header primary-overlay">
-				<div class="background-image-holder parallax-background">
-					<img class="background-image" alt="About Image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hero5.jpg">
-				</div>
 			
 				<div class="container">
 					<div class="row">
@@ -33,9 +30,7 @@ get_header(); ?>
 				
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-							<?php if( get_field('countdown') ): ?>
-								<div class="countdown" data-date="<?php the_field('countdown'); ?>"></div>
-							<?php endif; ?>
+							<div class="countdown" data-date="2016/03/06"></div>
 						</div>
 					</div>
 				</div><!--end of container-->
