@@ -34,7 +34,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-2">
-								<a href="index.html">
+								<a href="/">
 									<img alt="Logo" class="logo logo-light" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.png">
 									<img alt="Logo" class="logo logo-dark" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-dark.png">
 								</a>
