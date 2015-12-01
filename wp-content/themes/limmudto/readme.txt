@@ -1,4 +1,4 @@
-=== Twenty Fifteen ===
+=== Limmud ===
 Contributors: the WordPress team
 Requires at least: WordPress 4.1
 Tested up to: WordPress 4.3-trunk
