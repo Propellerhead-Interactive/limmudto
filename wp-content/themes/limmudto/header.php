@@ -35,8 +35,8 @@
 						<div class="row">
 							<div class="col-md-2">
 								<a href="/">
-									<img alt="Logo" class="logo logo-light" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.png">
-									<img alt="Logo" class="logo logo-dark" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-dark.png">
+									<img alt="Logo" class="logo logo-light" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo_long_white.png">
+									<img alt="Logo" class="logo logo-dark" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo_long.png">
 								</a>
 							</div>
 					
@@ -61,7 +61,7 @@
 					<div class="bottom-border"></div>
 			
 					<div class="sidebar-menu">
-						<img alt="Logo" class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.png">
+						<img alt="Logo" class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo_long.png">
 						<div class="bottom-border"></div>
 						<div class="sidebar-content">
 					
