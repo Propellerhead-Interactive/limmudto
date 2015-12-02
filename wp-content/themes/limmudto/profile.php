@@ -1,4 +1,4 @@
-<?php /* Template Name: Front Page */ ?>
+<?php /* Template Name: Profile page */ ?>
 
 <?php
 /**
@@ -16,22 +16,13 @@
 get_header(); ?>
 
 <div class="main-container"><a id="home" class="in-page-link"></a>
-			
-	<section class="hero-slider">
+	<section class="hero-slider hero-slider-mini">
 		<ul class="slides">
 			<li class="countdown-header primary-overlay">
 			
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-							<img alt="logo" class="logo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.png">
-							<span class="uppercase text-white"><?php the_field('hero-small-under-logo'); ?></span>
-							<h2 class="text-white large-h2"><?php the_field('hero-large-under-logo'); ?></h2>
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 							<div class="countdown" data-date="2016/03/06"></div>
 						</div>
 					</div>
@@ -39,8 +30,6 @@ get_header(); ?>
 			</li>
 		</ul>
 	</section>
-	
-	<a id="about" class="in-page-link"></a>
 	
 	<section class="inline-video">
 		<div class="container">
@@ -51,6 +40,8 @@ get_header(); ?>
 			</div><!--end of row-->
 		
 			<div class="row">
+				<div class="col-sm-12">
+				
 				<?php 
 					if (have_posts()) : while (have_posts()) : the_post();
 
@@ -58,12 +49,10 @@ get_header(); ?>
 
 					endwhile; endif;
 				?>
+				</div>
 			</div><!--end of row-->
 		</div><!--end of container-->
 	</section>
-	
-	
-	
 
 </div>
 

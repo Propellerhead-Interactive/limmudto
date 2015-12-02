@@ -38,6 +38,7 @@ get_header(); ?>
 			</div><!--end of row-->
 		
 			<div class="row">
+				<div class="col-sm-12">
 				<?php 
 					if (have_posts()) : while (have_posts()) : the_post();
 
@@ -45,6 +46,7 @@ get_header(); ?>
 
 					endwhile; endif;
 				?>
+					</div><!--end of col-->
 			</div><!--end of row-->
 		</div><!--end of container-->
 	</section>

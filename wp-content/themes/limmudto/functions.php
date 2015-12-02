@@ -355,3 +355,36 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/customizer.php';
 require_once('wp_bootstrap_navwalker.php');
 add_filter('show_admin_bar', '__return_false');
+
+
+function team_shortcode() {
+    
+	$pages = get_pages(array(
+		'meta_key' => '_wp_page_template',
+		'meta_value' => 'profile.php'
+	));
+	?>
+	<div class="row board-profiles">
+		
+		
+	<?php
+	foreach($pages as $page){
+		echo '<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">';
+		echo get_the_post_thumbnail($page->post_id,  array( 200, 200))."<br>";
+		echo '<strong>'.$page->post_title.'</strong><br />';
+		echo $page->post_content.'<br />';
+		
+		echo "</div>";
+	}?>
+	
+</div>
+<?php
+		
+		
+		
+}
+add_shortcode('team', 'team_shortcode'); 
+?>
+
+
+

@@ -9,22 +9,36 @@
  * @since Twenty Fifteen 1.0
  */
 ?>
-
+		<section class="strip-divider primary-overlay">
+						
+					
+							<div class="video-wrapper">
+								
+							</div>
+					
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<h1 class="text-white">Interested in speaking at Limmud Toronto 2016? <a href="#">Get in touch</a></h1>
+									</div>
+								</div><!--end of row-->
+							</div><!--end of container-->
+					</section>
 		<div class="footer-container">			
 			<footer class="classic">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-5 col-sm-offset-2">
-							<span class="lead color-heading">About Meetup</span>
+							<span class="lead color-heading">About Limmud</span>
 							<p>
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+								A volunteer-based global phenomenon to take you a step further on your Jewish journey, whatever that may be for you.  
 							</p>
 						</div>
 					
 						<div class="col-sm-4 col-sm-offset-1">
 							<ul class="contact-methods">
-								<li><i class="icon pe-7s-mail"></i><span>hello@site.net</span></li>
-								<li><i class="icon pe-7s-phone"></i><span>1800 382 3722</span></li>
+								<li><i class="icon pe-7s-mail"></i><span>info@limmud.ca</span></li>
+								<li><i class="icon pe-7s-phone"></i><span>1-800-GET-JEWY</span></li>
 								<li><i class="icon pe-7s-map-marker"></i><span>Toronto, ON</span></li>
 							</ul>
 						</div>
