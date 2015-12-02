@@ -364,19 +364,26 @@ function team_shortcode() {
 		'meta_value' => 'profile.php'
 	));
 	?>
-	<div class="row board-profiles">
+	<div class="board-profiles">
+			<div class="row">
 		
 		
 	<?php
+	$i=0;
 	foreach($pages as $page){
-		echo '<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">';
+		echo '<div class="board-profile col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">';
 		echo get_the_post_thumbnail($page->post_id,  array( 200, 200))."<br>";
 		echo '<strong>'.$page->post_title.'</strong><br />';
 		echo $page->post_content.'<br />';
 		
 		echo "</div>";
+		$i=$i+1;
+		if($i%2==0){
+			echo "</div><div class=\"row\">";
+			
+		}
 	}?>
-	
+	</div>
 </div>
 <?php
 		

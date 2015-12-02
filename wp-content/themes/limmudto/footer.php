@@ -10,10 +10,7 @@
  */
 ?>
 		<section class="strip-divider primary-overlay">
-						
-					
-							<div class="video-wrapper">
-								
+						<div class="video-wrapper">
 							</div>
 					
 							<div class="container">
@@ -47,9 +44,9 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<ul class="social-profiles">
-								<li><a href="#"><i class="icon social_twitter"></i></a></li>
-								<li><a href="#"><i class="icon social_facebook"></i></a></li>
-								<li><a href="#"><i class="icon social_instagram"></i></a></li>
+								<li><a target="_blank" href="https://twitter.com/limmudto"><i class="icon social_twitter"></i></a></li>
+								<li><a  target="_blank"  href="https://www.facebook.com/LimmudToronto/?fref=nf"><i class="icon social_facebook"></i></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/limmudto/"><i class="icon social_instagram"></i></a></li>
 							</ul>	
 						</div>
 					</div><!--end of row-->

@@ -26,6 +26,30 @@ p > .btn:hover {
 footer.classic{
   background:#e3e3e3 !important;
 }
-.board-profiles div{
+.board-profiles .row {
   margin-top:30px;
+  
+}
+.board-profiles .row .board-profile{
+ 
+  margin:0px;
+}
+p, body{
+  font-size:16px;
+}
+section.shoutout{
+  vertical-align:middle;
+  background-color:#e3e3e3;
+  padding-top:20px;
+  padding-bottom:20px;
+  
+}
+.shoutout-copy {
+   margin-top:25px;
+}
+
+.btn{
+  padding-left:15px;
+  padding-right:15px;
+  
 }

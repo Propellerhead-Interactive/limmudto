@@ -63,6 +63,40 @@ get_header(); ?>
 	</section>
 	
 	
+	<section class="news">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 no-padding shoutout-image">
+					<?php echo get_field("news");?>
+					
+				</div>
+			</div><!--end of row-->
+		</div><!--end of container-->
+	</section>
+	
+	
+	
+	
+	<section class="shoutout">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 no-padding shoutout-image">
+					<img src='<?php echo get_field("quotable_image")["url"];?>'/>
+					
+				</div>
+				<div class="col-sm-6 text-center shoutout-copy">
+				<?php 
+					echo "<h1>".get_field("quotable_title")."</h1>";
+					echo get_field("quotable_body");
+					echo "<br><a href='https://limmudto2016.eventbrite.ca' class='btn btn-hollow'>Get Tickets</a>";
+					
+				?>
+				</div>
+			</div><!--end of row-->
+		</div><!--end of container-->
+	</section>
+	
+	
 	
 
 </div>
