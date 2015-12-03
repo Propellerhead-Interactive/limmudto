@@ -361,7 +361,8 @@ function team_shortcode() {
     
 	$pages = get_pages(array(
 		'meta_key' => '_wp_page_template',
-		'meta_value' => 'profile.php'
+		'meta_value' => 'profile.php',
+		'sort_column'=>'menu_order'
 	));
 	?>
 	<div class="board-profiles">
