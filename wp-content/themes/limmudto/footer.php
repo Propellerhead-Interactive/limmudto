@@ -48,8 +48,19 @@
 								<li><a  target="_blank"  href="https://www.facebook.com/LimmudToronto/?fref=nf"><i class="icon social_facebook"></i></a></li>
 								<li><a target="_blank" href="https://www.instagram.com/limmudto/"><i class="icon social_instagram"></i></a></li>
 							</ul>	
+							
 						</div>
+						
 					</div><!--end of row-->
+					</div><!--end of container-->
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<hr>
+							<p>Build pro bono by <a target="_blank" href="http://propellerhead.ca">Propellerhead Interactive</a></p> 
+						</div>
+					</div>
+					
 				</div><!--end of container-->
 			</footer>
 		</div>
