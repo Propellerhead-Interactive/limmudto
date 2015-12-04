@@ -88,7 +88,7 @@ get_header(); ?>
 				<?php 
 					echo "<h1>".get_field("quotable_title")."</h1>";
 					echo get_field("quotable_body");
-					echo "<br><a href='https://limmudto2016.eventbrite.ca' class='btn btn-hollow'>Get Tickets</a>";
+					echo "<br><a target=\"_blank\" href='https://limmudto2016.eventbrite.ca' class='btn btn-hollow'>Get Tickets</a>";
 					
 				?>
 				</div>
