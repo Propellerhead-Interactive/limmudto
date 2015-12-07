@@ -35,7 +35,7 @@
 						<div class="col-sm-4 col-sm-offset-1">
 							<ul class="contact-methods">
 								<li><i class="icon pe-7s-mail"></i><span>info@limmud.ca</span></li>
-								<li><i class="icon pe-7s-phone"></i><span>1-800-GET-JEWY</span></li>
+								<li><i class="icon pe-7s-phone"></i><span>1-647-922-8131</span></li>
 								<li><i class="icon pe-7s-map-marker"></i><span>Toronto, ON</span></li>
 							</ul>
 						</div>
