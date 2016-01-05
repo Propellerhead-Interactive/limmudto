@@ -16,7 +16,7 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-12 text-center">
-										<h1 class="text-white">Interested in speaking at Limmud Toronto 2016? <a href="/presenter-application/">Get in touch</a></h1>
+										<h1 class="text-white">Want to go to Limmud Toronto 2016? <a href="https://limmudto2016.eventbrite.ca/">Get Tickets!</a></h1>
 									</div>
 								</div><!--end of row-->
 							</div><!--end of container-->
